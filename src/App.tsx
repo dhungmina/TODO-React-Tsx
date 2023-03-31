@@ -1,10 +1,13 @@
-
+import React from 'react'
 import './App.css';
+import InputFeild from './Components/InputFeild';
 
-function App() {
+
+const  App:React.FC=()=> {
   return (
     <div className="App">
-      its app rey
+    <span className="heading">TODO</span>
+    <InputFeild/>
     </div>
   );
 }
